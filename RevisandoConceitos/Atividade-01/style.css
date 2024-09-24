@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    
+  }
+  
+  ul {
+    list-style: none;
+    height: 80px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: 30px;
+  }
+  
+  li {
+    position: relative;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    padding: 20px;
+  
+  }
+  .menu {
+    background-color: #1654aa;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  .img-cab{
+    /*
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    bottom = de baixo para cima
+    */
+    position: absolute;
+    top: 0px;/*Cima*/
+    left: 0px;
+  }
+  li:after {
+    content: "";
+    position: absolute;
+    background-color: #ff0000;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  
+  li:hover {
+    color: #ffffff;
+  }
+  
+  li:hover:after {
+    width: 100%;
+  }
+  a{
+    color: aliceblue;
+  }
+  #section01 {
+    background-image: url(../assets/images/4931029.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5w;
+    flex-wrap: wrap;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-top: 150px;
+  }
+  
+  .section01-left-div {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(54, 53, 53, 0.541);
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .section01-right-div {
+    width: 800px;
+    height: 500px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    gap: 2vh;
+    margin: 200px;
+  }
+  #section02 {
+    background-image: url(../assets/images/4931029.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5w;
+    flex-wrap: wrap;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-top: 150px;
+  }
+  
+  .section02-left-div {
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin: 100px;
+  }
+  
+  .section02-right-div {
+    width: 500px;
+    height: 500px;
+    font-size: 22px;
+    display: flex;
+    gap: 2vh;
+    margin: 100px;
+  
+  }
+  footer{
+    background-color: #1654aa;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    border-radius: 5px;
+  }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gupter:wght@400;500;700&family=Honk&family=Nabla&family=Oswald:wght@200..700&family=Playwrite+BE+VLG:wght@100..400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="menu">
+        <ul>
+            <li><a href="#section01">Section 01</a></li>
+            <li><a href="#section02">Section 02</a></li>
+            <li><a href="#section03">Section 03</a></li>
+            <li><a href="#section04">Section 04</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="section01">
+            <div class="section01-left-div">
+                <img src="assets/images/sid.jpg" alt="Mastodonte" width="500px" height="auto"
+                    class="image-style-section01" />
+            </div>
+            <div class="section01-right-div">
+                <h2>Marsupial</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+                    accusantium modi, voluptatibus deleniti illo dignissimos id voluptas
+                    natus reiciendis maiores explicabo dolores quaerat architecto autem
+                    unde incidunt ipsa? Ipsam, error. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Corporis, accusantium modi,
+                    voluptatibus deleniti illo dignissimos id voluptas natus reiciendis
+                    maiores explicabo dolores quaerat architecto autem unde incidunt
+                    ipsa? Ipsam, error.
+                </p>
+            </div>
+          </section>
+          <section id="section02">
+            <h2 class="tec-title">Tecnologias</h2>
+            <div class="wrap-tecs">
+              <div>
+                <img
+                  width="100px"
+                  height="auto"
+                  src="assets/images/GF8ofa-WwAA5wyL.jpg"
+                  alt=""
+                />
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis temporibus fugiat odio, dicta tempora, cumque nulla a,
+                  delectus est optio doloribus soluta sit culpa natus! Repellat,
+                  quae! Nam, optio et.
+                </p>
+              </div>
+              <div>
+                <img
+                  width="100px"
+                  height="auto"
+                  src="assets/images/images.jfif"
+                  alt=""
+                />
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis temporibus fugiat odio, dicta tempora, cumque nulla a,
+                  delectus est optio doloribus soluta sit culpa natus! Repellat,
+                  quae! Nam, optio et.
+                </p>
+              </div>
+              <div>
+                <img
+                  width="100px"
+                  height="auto"
+                  src="assets/images/Leonciobarros.jpg"
+                  alt=""
+                />
+                <br />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Blanditiis temporibus fugiat odio, dicta tempora, cumque nulla a,
+                  delectus est optio doloribus soluta sit culpa natus! Repellat,
+                  quae! Nam, optio et.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section id="section03">
+            <div class="sla">
+              <h2>Conceito</h2>
+              <p>
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+              <button class="botao" onclick="teste()">Teste</button>
+          
+          </div>
+          </section>
+          <section id="section04">
+            <div class="left-contact">
+              <h2 class="heading-contact">Contato</h2>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  gap: 0.5vh;
+                  position: relative;
+                "
+              >
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 0.5vh">
+                <label for="mensagem">Mensagem</label>
+                <input type="text" id="mensagem" />
+              </div>
+              <br />
+              <button class="batata" onclick="conferirMensagemWhatsApp()">
+                Conferir Mensagem
+              </button>
+            </div>
+            <div class="right-contact" id="rightDiv">
+              <div>
+                <p>Nome: <span id="confNome"></span></p>
+                <br />
+                <p class="text">Mensagem: <span id="confMsg"></span></p>
+              </div>
+              <button class="batata" onclick="enviar()">ZAP</button>
+            </div>
+          </section>
+          <footer>
+            
+            <a href=""><img width="40px" height="auto" src="assets/images/instagram.png" alt="Instagram"></a>
+            <a href=""><img width="40px" height="auto" src="assets/images/facebook.png" alt="Facebook"></a>
+            <a href=""><img width="40px" height="auto" src="assets/images/youtube.png" alt="Youtube"></a>
+          </footer>
+        </main>
+      </body>
+    </html>

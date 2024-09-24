@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Nanum+Gothic&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="menu">
+        <ul class="ul_menu">
+            <li><a href="#section01">Home</a></li>
+            <li><a href="#section02">Paladio</a></li>
+            <li><a href="#section03">Prata</a></li>
+            <li><a href="#section04">Silicio</a></li>
+            <li><a href="#section05">Cádmio</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="section01">
+            <div class="section01-right-div">
+                <h2 class="titulo">Neste site você vai ver elementos como:</h2>
+                <p class="topicos">
+                    <button class="btn" onclick="location.href='#section02'">Paladio</button>
+                    <button class="btn" onclick="location.href='#section03'">Prata</button>
+                    <button class="btn" onclick="location.href='#section04'">Silicio</button>
+                    <button class="btn" onclick="location.href='#section05'">Cádmio</button>
+                </p>
+            </div>
+            <div class="section01-left-div">
+                <div class="container-slides">
+                    <button id="prev-button"><img src="../assets/images/arrow.png" alt="Botão anterior"></button>
+                    <div class="container-images">
+                        <img src="../assets/images/Cádmio.jpg" alt="Imagem de Cádmio" class="sliders on">
+                        <img src="../assets/images/paladioCarrosel.jpg" alt="Imagem de Paladio" class="sliders">
+                        <img src="../assets/images/prata.jpg" alt="Imagem de Prata" class="sliders">
+                        <img src="../assets/images/silicio.jpg" alt="Imagem de Silicio" class="sliders">
+                    </div>
+                    <button id="next-button"><img src="../../assets/images/arrow.png" alt="Botão próximo"></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="section02">
+            <div class="section02-left-div">
+                <img src="../../assets/images/paladio_mineral.jpg" alt="Paladio" width="500px" height="auto" class="image-style-section01" />
+            </div>
+            <div class="section02-right-div">
+                <h2>Paladio</h2>
+                <p>
+                    O paládio é um metal precioso usado principalmente em conversores catalíticos de automóveis para
+                    reduzir emissões de gases poluentes. Além disso, é utilizado em joalheria, eletrônica, odontologia,
+                    medicina, catalisadores industriais e purificação de hidrogênio devido à sua resistência à corrosão,
+                    condutividade elétrica e propriedades catalíticas.
+                </p>
+            </div>
+            <div class="section02-right-div">
+                <h2>Poluição</h2>
+                <p>
+                    A poluição associada ao paládio ocorre principalmente durante a mineração e o processamento do
+                    metal. Esses processos podem causar destruição de habitats, contaminação da água e emissão de
+                    poluentes. Embora os conversores catalíticos que contêm paládio ajudem a reduzir a poluição do ar, a
+                    produção desses dispositivos ainda apresenta desafios ambientais. Além disso, resíduos gerados
+                    durante o processamento podem afetar a saúde humana e o meio ambiente.
+                </p>
+            </div>
+            <div class="section02-left-div">
+                <img src="../assets/images/Poluição01.jpg" alt="Poluição" width="500px" height="auto" class="image-style-section01" />
+            </div>
+        </section>
+
+        <section id="section03">
+            <div class="section03-right-div">
+                <img src="../assets/images/mina_prata.jpg" alt="Mina de Prata" width="500px" height="auto">
+            </div>
+            <div class="section03-left-div">
+                <h2 class="titulo03">Poluição pela mineração de prata</h2>
+                <p class="subtitulo03">
+                    A mineração de prata envolve a extração do minério do solo, seguido pelo processamento para separar a prata dos outros materiais. Esse processo pode causar diversos impactos ambientais significativos:
+                    Geração de Resíduos: A mineração de prata produz grandes quantidades de resíduos, que podem conter metais pesados e outros contaminantes.
+                    Contaminação da Água: A água subterrânea e superficial pode ser contaminada por produtos químicos usados no processo de mineração, como cianeto e mercúrio.
+                    Poluição do Ar: A poeira e os gases liberados durante a mineração e o processamento podem poluir o ar, afetando a saúde das comunidades próximas.
+                    Desmatamento e Erosão: A mineração a céu aberto pode levar ao desmatamento e à erosão do solo, resultando na perda de biodiversidade.
+                    Apesar desses impactos, a prata tem muitos usos importantes:
+                    Joalheria e Moedas: A prata é amplamente utilizada na fabricação de joias e moedas devido à sua beleza e valor.
+                    Eletrônicos: Devido à sua excelente condutividade elétrica, a prata é usada em componentes eletrônicos, como contatos elétricos e circuitos.
+                    Medicina: A prata tem propriedades antimicrobianas e é usada em curativos e dispositivos médicos para prevenir infecções.
+                    Fotografia: Embora menos comum hoje em dia, a prata foi historicamente usada em filmes fotográficos e papéis fotográficos.
+                </p>
+            </div>
+        </section>
+
+        <section id="section04">
+            <div class="section04-left-div">
+                <div class="container">
+                    <div class="slide">
+                        <div class="slider">
+                            <img id="1" src="../assets/images/minaSilicio.jpg" alt="Mina de Silício">
+                            <img id="2" src="../assets/images/silicioS.png" alt="Silício">
+                            <img id="3" src="../assets/images/MinaSilicio2.jpg" alt="Mina de Silício 2">
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#1"></a>
+                            <a href="#2"></a>
+                            <a href="#3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section04-right-div">
+                <h2>Poluição pelas minas de silicio</h2>
+                <p>
+                    O silício é amplamente utilizado em eletrônicos, vidro, cimento e painéis solares devido às suas propriedades semicondutoras. No entanto, sua extração e processamento podem causar poluição ambiental e problemas de saúde, como doenças respiratórias, devido à dispersão de partículas de sílica. É essencial gerenciar seu uso de forma sustentável para minimizar esses impactos.
+                </p>
+            </div>
+        </section>
+        <section id="section05">
+            <div class="left-div">
+            <div class="botaoEsquerda">
+                <button class="botaoCadmio" onclick="toggleFoto()">
+                    Mineração
+                </button>
+                <div id="conteudoFoto" class="conteudo"></div>
+            </div>
+        </div>
+        <div class="right-div">
+            <div class="botaoDireita">
+                <button class="botaoHist" onclick="toggleUtilidade()">
+                    Utilidade
+                </button>
+                <div id="conteudoUtilidade" class="conteudo"></div>
+            </div>
+        </div>
+       
+        </section>
+        <footer>
+            <a href="https://www.instagram.com/"><img width="40px" height="auto" src="../assets/images/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/?locale=pt_BR"><img width="40px" height="auto" src="../assets/images/facebook.png" alt="Facebook"></a>
+            <a href="https://m.youtube.com/?hl=pt"><img width="40px" height="auto" src="../assets/images/youtube.png" alt="Youtube"></a>
+          </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
