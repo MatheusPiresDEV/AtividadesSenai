@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.botaoConta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.balaco{
+  margin: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+.sumir{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
