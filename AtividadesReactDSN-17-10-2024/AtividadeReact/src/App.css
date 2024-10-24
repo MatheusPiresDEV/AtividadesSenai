@@ -1,3 +1,5 @@
+
+
 * {
   padding: 0;
   margin: 0;
@@ -36,4 +38,26 @@ button{
   margin: 22px;
   gap: 5vh;
   flex-direction: column;
+}
+.contCaracter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 22px;
+  gap: 5vh;
+  flex-direction: column;
+}
+.formulario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 22px;
+  gap: 5vh;
+  flex-direction: column;
+}
+.body{
+  background-image: url(assets/galaxy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
