@@ -1,0 +1,27 @@
+create database prova;
+use prova;
+
+create table Usuario(
+id_usuario int primary key auto_increment not null,
+nome varchar(80),
+email varchar(100)
+);
+
+select * from Usuario;
+
+create table tarefas (
+id_tarefa int primary key auto_increment not null,
+descricao_tarefa varchar (255),
+nome_setor varchar (60),
+prioridade varchar (50),
+data_cadastro int,
+fazer varchar(50),
+fk_id_usuario int NOT NULL,
+foreign key(fk_id_usuario) references Usuario(id_usuario)
+);
+
+
+
+insert into tarefas (fazer) values ("Media", "Alta", "Baixa");
+
+

@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+.menu {
+  color: #ffffff;
+  background-color: #0056b3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0 20px; 
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end; 
+  margin: 0; 
+}
+
+.menu ul li {
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  margin-left: auto; 
+  font-size: 25px;
+}
+
+#section01{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  gap: 5vw;
+  flex-wrap: wrap;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  padding-top: 150px;
+}
+
+button{
+  color: white;
+  background-color: #0056b3;
+}
+#section02{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  gap: 5vw;
+  flex-wrap: wrap;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 80px;
+  padding-top: 150px;
+}
+
+.tarefas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+

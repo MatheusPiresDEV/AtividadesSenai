@@ -59,7 +59,7 @@ function App() {
           <br />
           <label htmlFor="ano">Ano</label>
           <br />
-          <input type="text" id='ano' onChange={(e) => setAno(Number(e.target.value))} />
+          <input type="number" id='ano' onChange={(e) => setAno(Number(e.target.value))} />
           <br />
           <label htmlFor="cor">Cor</label>
           <br />
