@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'; // Importa hooks do React para gerenciar estado e efeitos colaterais
 import axios from 'axios'; // Importa a biblioteca axios para realizar requisições HTTP
 import './App.css'; // Importa o arquivo CSS para estilização
+import Navbar from './components/Navbar';
 
 function App() {
   // Declaração de estados para armazenar os dados do veículo
@@ -47,6 +48,8 @@ function App() {
 
   return (
     <>
+    <Navbar>
+    </Navbar>
       <div className="card">
         <form>
           <label htmlFor="marca">Marca</label>
